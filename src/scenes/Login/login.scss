@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+$Tittles : 'Righteous';
+$Content : 'Mulish', sans-serif;
+
+$green : #123504;
+$lightGreen : #A6C48A;
+$white : #FFFFFF;
+$lightYellow : #FFEE97;
+$red : #EF1010;
+$yellow : #ECF015;
+$greeFinished : #22AA16;
+
+
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $lightGreen;
+  }
+
+
+  .containerLogin {
+
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+      
+  }
+
+
+  .plasticosLA {
+      height: 80px;
+      width: fit-content;
+      margin: 0 auto;
+      justify-content: center;
+
+      h1 {          
+          width: fit-content;
+          margin: auto;
+          font-family: $Tittles;
+          font-size: 60px;
+          color: $green;
+      }
+
+      
+    }
+
+  input {
+      height: 70px;
+      width: 500px;
+      margin: 20px;
+      font-size: 30px;
+      background-color: $white;
+      font-family: $Content;
+      border-radius: 10px;
+    }
+
+
+    .linkLogin {
+      height: 70px;
+        width: 300px;
+        background-color: none;
+        margin: 20px;
+
+    }
+
+    .loginButton {
+        height: 70px;
+        width: 300px;
+        background-color: $green;
+        font-family: $Content;
+        font-size: 40px;
+        color: $white;
+        border-radius: 10px;
+        border-color: $green;
+    }
+  
+
+    .register {
+        margin: 40px 0;
+        height: fit-content;
+        width: fit-content;
+        font-family: $Content;
+        font-size: 15px;              
+        justify-content: center;
+  
+    
+  
+        
+      }
+  

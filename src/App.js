@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+import Login from './scenes/Login/Login';
+import Opciones from './scenes/Opciones/Opciones';
+import CreateNewOrder from './scenes/CreateNewOrder/CreateNewOrder';
+import TrackOrders from './scenes/TrackOrders/TrackOrders';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>       
+        <Switch>         
+          <Route path="/crear-nueva-orden" component = {CreateNewOrder}/>
+          <Route path="/rastrear-ordenes" component = {TrackOrders}/>
+          <Route path="/opciones" component = {Opciones} /> 
+          <Route path="/login" component = {Login} />        
+          <Route exact path="/" component = {Login} />
+        </Switch>     
+    </Router>
   );
 }
 

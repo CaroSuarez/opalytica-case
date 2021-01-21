@@ -1,0 +1,71 @@
+@import '../Login/login.scss';
+
+.containerOptions{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+    .plasticosLAOptions {
+        width: 100%;
+        height: 80px;
+        h1 {          
+            width: fit-content;
+            margin: 0 30px;
+            font-family: $Tittles;
+            font-size: 50px;
+            color: $green;
+        }
+        
+        
+        
+
+    }
+
+
+    .optionsButtonsContainer {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: fit-content;
+        margin-top: 150px;
+    }
+
+    .linkOptions {
+
+        height: 100px;
+        width: 600px;
+        background-color: none;
+        margin: 10px;
+        
+        
+        
+        
+        
+        
+        
+    }
+
+
+
+    .optionButton  {
+        height: 100px;
+        width: 600px;
+        background-color: $green;
+        font-family: $Content;
+        font-size: 30px;
+        color: $white;
+        border-radius: 10px;
+        border-color: $green;
+        
+        padding: auto;
+        
+        
+    }
+
+
+}
