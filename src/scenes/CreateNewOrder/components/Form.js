@@ -11,15 +11,13 @@ const Form = () => {
     const [clientName, setClientName] = useState("");
     const [numberOfBottles, setNumberOfBottles] = useState("");
 
-    console.log(clientId)
-    console.log(clientName)
-    console.log(numberOfBottles)    
+     
 
     const loadOrder = (id, name, number, event) => {
 
         event.preventDefault();
 
-        console.log('ejecutando el loadOrder')
+        
 
         db.collection("orders").doc().set({
             clientId : id,
@@ -35,7 +33,7 @@ const Form = () => {
             setClientName("");
             setNumberOfBottles("");
 
-            console.log("Document successfully written!");
+            
         })
         .catch(function(error) {
             console.error("Error writing document: ", error);
@@ -74,7 +72,7 @@ const Form = () => {
         onChange={(e)=> setNumberOfBottles(e.target.value)}
       />
     <div className = 'formButtonsContainer' >
-    {/* <button id = 'formCancelButton'}>CANCEL</button> */}
+    
 
 
     <Link className = 'cancelLinkForm' to = '/opciones'>
