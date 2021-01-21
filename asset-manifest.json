@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/opalytica-case/static/css/main.f376440d.chunk.css",
+    "main.js": "/opalytica-case/static/js/main.8ddff1b9.chunk.js",
+    "main.js.map": "/opalytica-case/static/js/main.8ddff1b9.chunk.js.map",
+    "runtime-main.js": "/opalytica-case/static/js/runtime-main.15751ff8.js",
+    "runtime-main.js.map": "/opalytica-case/static/js/runtime-main.15751ff8.js.map",
+    "static/js/2.b5ccdb0c.chunk.js": "/opalytica-case/static/js/2.b5ccdb0c.chunk.js",
+    "static/js/2.b5ccdb0c.chunk.js.map": "/opalytica-case/static/js/2.b5ccdb0c.chunk.js.map",
+    "index.html": "/opalytica-case/index.html",
+    "static/css/main.f376440d.chunk.css.map": "/opalytica-case/static/css/main.f376440d.chunk.css.map",
+    "static/js/2.b5ccdb0c.chunk.js.LICENSE.txt": "/opalytica-case/static/js/2.b5ccdb0c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15751ff8.js",
+    "static/js/2.b5ccdb0c.chunk.js",
+    "static/css/main.f376440d.chunk.css",
+    "static/js/main.8ddff1b9.chunk.js"
+  ]
+}
